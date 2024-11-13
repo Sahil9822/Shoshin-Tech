@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.header-main-container{
+    background-color: rgb(255, 255, 255);
+    height:70px;
+    width:100%;
+    display: flex;
+    gap:30px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px 10px 50px;
+    border-bottom: solid 1.5px #f0f0f0;
+}
+.hamburger{
+    background-color: rgb(255, 255, 255);
+    margin-left: -20px;
+    border: none;
+    outline: none;
+}
+
+.header-main-container svg{
+    cursor: pointer;
+}
+
+.input-container{
+    background-color: rgb(255, 255, 255);
+    width:360px;
+    height:42px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    border:solid 1px #ececec;
+    padding: 5px 10px 5px 5px;
+}
+.input-element{
+    width:320px;
+    height: 100%;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 0 0 10px;
+    font-size: 14px;
+}
+.input-container svg{
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.icons-header-container{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    gap:34px;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap:18px;
+    background: #fff;
+    cursor: pointer;
+}
+.profile-pic{
+    width: 45px;
+    height:45px;
+    border-radius: 50%;
+
+}
+.profile-name{
+    display: flex;
+    align-items: center;
+}
+.profile-name p{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(22, 30, 84, 1);
+    font-size: 16px;
+}
+.header-inner-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+@media ((max-width:1024px)) {
+    .profile-name p{
+        display: none;
+    }
+    .header-main-container{
+        padding-right: 30px;
+    }
+    .profile-pic{
+        width: 40px;
+        height:40px;
+    }
+    .profile-container{
+        gap:10px;
+        background: #fff;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:767px) {
+    .input-element{
+        display: none;
+    }
+  .input-container {
+    border: none;
+    width: 50px;
+    padding: 0;
+    margin-left: -10px;
+}
+.header-main-container{
+    padding-right: 30px;
+}
+
+}

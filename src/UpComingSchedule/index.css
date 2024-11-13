@@ -1,0 +1,34 @@
+.announcement-inner-heads{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(104, 104, 104, 1);
+}
+.upcomingevents-item-container{
+    overflow-y: auto;
+    max-height: 400px;
+    scrollbar-width: none;
+    scrollbar-color: #d3d3d3 rgb(255, 255, 255);
+    scroll-behavior: smooth;
+    scrollbar-color: #fff;
+  }
+.announcement-item-container::-webkit-scrollbar {
+    display: none;
+}
+     
+.upcoming-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .upcoming-header h3 {
+    color:rgba(22, 30, 84, 1);
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .upcoming-container {
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+  }
